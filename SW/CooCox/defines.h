@@ -27,6 +27,8 @@
  */
 #ifndef TM_DEFINES_H
 #define TM_DEFINES_H
+#define USE_USB_OTG_FS
+
 
 /* Put your global defines for all libraries here used in your project */
 

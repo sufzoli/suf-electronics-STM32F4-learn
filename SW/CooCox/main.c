@@ -34,7 +34,9 @@ int main(void) {
 			/* If something arrived at VCP */
 			if (TM_USB_VCP_Getc(&c) == TM_USB_VCP_DATA_OK) {
 				/* Return data back */
-				TM_USB_VCP_Putc(c);
+
+				// TM_USB_VCP_Putc(c);
+				TM_USB_VCP_Puts("Hello world!");
 			}
 		} else {
 			/* USB not OK */
